@@ -1,6 +1,6 @@
-# [Project name]
+# SignLearn
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+SignLearn is a warm, beginner-friendly Indian Sign Language learning platform with visual lessons, webcam practice, feedback states, and progress tracking.
 
 ## Run & Operate
 
@@ -22,23 +22,30 @@ _Replace the heading above with the project's name, and this line with one sente
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/signlearn/src/App.tsx` — frontend routes, local demo data, auth flow, lesson/practice/progress screens
+- `artifacts/signlearn/src/index.css` — SignLearn theme tokens, typography, motion, and shared utility styling
+- `attached_assets/` — original product brief and visual reference supplied for the build
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- The first MVP is frontend-first and uses localStorage for demo identity and progress so every learning state is usable before the CV/API services are connected.
+- Practice supports both real browser camera permission and a simulated preview path, keeping the product demonstrable in environments without camera access.
+- The visual system uses a warm cream, deep green, apricot, and sage palette with display typography to keep the product approachable rather than dashboard-like.
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+- Landing page that explains the learning journey and introduces five starter signs.
+- Login/register screens with demo access and guarded learning routes.
+- Dashboard, lesson, practice, and progress views for Hello, Thank You, Water, Help, and Please.
+- Local practice feedback includes hand detection stages, confidence, correct/retry states, XP, streak, and badges.
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+The product should stay friendly, accessible, warm, and focused on one obvious primary action per screen.
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- The standalone Vite build needs `PORT` and `BASE_PATH`; the managed workflow supplies them automatically.
 
 ## Pointers
 

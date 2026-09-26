@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "SignLearn"
+description = "A warm, beginner-friendly Indian Sign Language learning platform with visual lessons, webcam practice, feedback states, and progress tracking."
+version = "1.0.0"
+id = "artifacts/signlearn"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20958
+
+[services.development]
+run = "pnpm --filter @workspace/signlearn run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/signlearn", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/signlearn/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20958"
+BASE_PATH = "/"

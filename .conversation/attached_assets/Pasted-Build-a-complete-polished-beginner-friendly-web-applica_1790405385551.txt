@@ -1,0 +1,1178 @@
+Build a complete, polished, beginner-friendly web application called “SignLearn” — a Computer Vision-Based Indian Sign Language (ISL) Learning Platform.
+
+This is a college mini project, but the final UI should look and feel like a real, professionally designed educational product rather than a basic student project.
+
+1. DESIGN REFERENCE
+
+I have attached a UI reference image.
+
+Use the attached image as the primary visual inspiration for the overall design language, layout, spacing, hierarchy, typography, cards, illustrations, and visual storytelling.
+
+Do NOT copy the exact content or branding from the reference.
+
+The reference has these characteristics that I want to carry into this project:
+
+Clean educational SaaS/EdTech appearance
+Large whitespace
+Editorial-style sections
+Large hero section
+Friendly 3D/illustrated characters
+Rounded UI elements
+Soft shadows
+Large readable typography
+Small accent labels above headings
+Cards with clear hierarchy
+Alternating visual/text sections
+Simple navigation
+Professional but friendly appearance
+Visually guided user journey
+Plenty of breathing space
+Minimal clutter
+Clear CTA buttons
+
+However, this application is for Indian Sign Language learning, so the visual identity must be adapted specifically for that purpose.
+
+2. CORE PRODUCT
+
+The website teaches users a small set of Indian Sign Language gestures and allows them to practice those gestures using their webcam.
+
+MVP signs:
+Hello
+Thank You
+Water
+Help
+Please
+
+The application should follow this journey:
+
+Register / Login
+      ↓
+Learning Dashboard
+      ↓
+Select a Sign
+      ↓
+View Sign Demonstration
+      ↓
+Start Practice
+      ↓
+Webcam Opens
+      ↓
+Hand Detection
+      ↓
+Gesture Recognition
+      ↓
+Correct / Try Again
+      ↓
+Score Saved
+      ↓
+Progress Updated
+
+The interface should make this flow extremely obvious to a first-time user.
+
+A user should immediately understand:
+
+What this website does → What I should learn → How I practice → How I improve.
+
+3. BRANDING
+
+Application name:
+
+SignLearn
+
+Suggested tagline:
+
+“Learn. Sign. Connect.”
+
+Alternative supporting text:
+
+“Learn Indian Sign Language through simple lessons and interactive practice.”
+
+Do not make the branding overly corporate.
+
+The personality should be:
+
+Friendly
+Warm
+Educational
+Encouraging
+Accessible
+Modern
+Playful but professional
+4. COLOR SYSTEM
+
+IMPORTANT:
+
+DO NOT USE BLUE AS THE PRIMARY UI COLOR.
+
+Use this palette:
+
+Background      #FFF9F2
+Soft Pink       #F6B6C8
+Peach           #F7C59F
+Warm Yellow     #F4D77D
+Sage Green      #B8C9A8
+Dark Brown      #3D332D
+White           #FFFFFF
+
+Use dark brown instead of pure black wherever possible.
+
+Use peach/pink/yellow/sage as accents rather than overwhelming the interface.
+
+The overall page should feel warm and soft.
+
+Avoid:
+
+Neon colors
+Strong gradients
+Excessive glassmorphism
+Dark backgrounds
+Blue dashboards
+Corporate SaaS aesthetics
+5. TYPOGRAPHY
+
+Use a modern, highly readable sans-serif font.
+
+Headings should be:
+
+Large
+Bold
+Rounded/friendly
+Easy to scan
+
+Body text should be:
+
+Comfortable to read
+Short paragraphs
+Good line spacing
+
+Use clear visual hierarchy:
+
+Eyebrow label
+↓
+Large heading
+↓
+Supporting description
+↓
+CTA
+
+Example:
+
+LEARN IN A SIMPLE WAY
+
+Learn Indian Sign Language
+with confidence
+
+Practice everyday signs using
+interactive webcam-based learning.
+
+[Start Learning]
+6. LANDING PAGE
+
+Create a polished landing page before authentication.
+
+Navbar
+
+Keep the navbar minimal like the reference image.
+
+Left:
+
+SignLearn logo + name
+
+Logo should be a simple hand/sign-inspired icon.
+
+Navigation:
+
+Learn
+How It Works
+Progress
+About
+
+Right:
+
+Log In
+Start Learning button
+
+Navbar should remain clean and spacious.
+
+7. HERO SECTION
+
+Create a large hero section inspired by the attached reference.
+
+Left side:
+
+Small eyebrow:
+
+INDIAN SIGN LANGUAGE LEARNING
+
+Large heading:
+
+Learn Indian Sign Language, one sign at a time.
+
+Supporting text:
+
+Learn everyday ISL signs through simple visual lessons and practise them using your webcam with instant feedback.
+
+Buttons:
+
+Start Learning
+
+Secondary:
+
+How It Works
+
+Right side:
+
+Use a friendly 3D/illustrated character demonstrating a hand gesture.
+
+The illustration should visually communicate:
+
+Learning
+Hand gestures
+Technology
+Accessibility
+
+Use a large soft peach background shape behind the illustration similar to the reference design.
+
+Do not make the hero look like a generic AI dashboard.
+
+8. INTRODUCTION / VALUE SECTION
+
+Immediately below the hero, explain the product in a visually attractive way.
+
+Eyebrow:
+
+LEARN WITH CONFIDENCE
+
+Heading:
+
+From watching a sign to performing it yourself.
+
+Explain that SignLearn combines:
+
+Visual demonstrations
+Simple explanations
+Webcam practice
+Computer vision
+Instant feedback
+Progress tracking
+
+Use 3 or 4 feature cards.
+
+Example:
+
+Learn Visually
+
+Understand each sign through clear demonstrations.
+
+Practice Naturally
+
+Use your webcam and practise the gesture yourself.
+
+Get Instant Feedback
+
+Know immediately whether your gesture was detected correctly.
+
+Track Your Progress
+
+See your learning progress as you complete signs.
+
+Use small circular icons above each card.
+
+9. HOW IT WORKS SECTION
+
+Create an attractive process section.
+
+Heading:
+
+Learning becomes easier when you practise.
+
+Display four steps:
+
+01
+Learn
+
+02
+Watch
+
+03
+Practice
+
+04
+Improve
+
+Each step should have a simple illustration/icon.
+
+Explain:
+
+01 — Learn
+
+Choose a sign and understand what it means.
+
+02 — Watch
+
+See a clear demonstration of the gesture.
+
+03 — Practice
+
+Turn on your webcam and perform the sign.
+
+04 — Improve
+
+Receive instant feedback and track your progress.
+
+This section should visually resemble the structured educational sections from the attached reference.
+
+10. SIGN PREVIEW SECTION
+
+Create a section introducing the five available signs.
+
+Eyebrow:
+
+START WITH THE BASICS
+
+Heading:
+
+Five everyday signs to get you started.
+
+Display five attractive cards:
+
+Hello
+
+A simple greeting sign.
+
+Thank You
+
+A common expression of gratitude.
+
+Water
+
+An everyday essential sign.
+
+Help
+
+A useful sign for asking for assistance.
+
+Please
+
+A polite everyday expression.
+
+Each card should contain:
+
+Sign name
+Short description
+Illustration/demo placeholder
+Status
+"Learn Sign" button
+
+Do NOT overcrowd these cards.
+
+11. AUTHENTICATION
+
+Create:
+
+Login
+
+Fields:
+
+Email
+Password
+
+Buttons:
+
+Log In
+
+Secondary:
+
+Create an account
+
+Also include:
+
+Continue as Demo User
+
+if appropriate for MVP testing.
+
+Register
+
+Fields:
+
+Name
+Email
+Password
+Confirm Password
+
+Button:
+
+Create Account
+
+Keep authentication screens visually consistent with the landing page.
+
+Use a split layout:
+
+Left:
+
+Friendly illustration / educational message
+
+Right:
+
+Authentication form
+
+12. USER DASHBOARD
+
+After login, create a clean learning dashboard.
+
+Header:
+
+Good morning, [Name]!
+
+Subheading:
+
+Ready to learn a new sign today?
+
+Show a progress summary at the top:
+
+3 / 5 Signs Completed
+
+████████░░
+
+Average Accuracy
+92%
+
+XP
+120 XP
+
+Current Streak
+3 days
+
+Do not make the dashboard overly complicated.
+
+13. DASHBOARD SIGN CARDS
+
+Show all five signs.
+
+Each card must contain:
+
+Illustration
+Sign name
+Short description
+Completion status
+Accuracy if practiced
+Button
+
+Example states:
+
+Not Started
+
+Start Learning
+
+In Progress
+
+Continue
+
+Completed
+
+✓ Completed
+
+Use soft accent colors to differentiate states.
+
+14. LESSON PAGE
+
+When a user selects a sign, show a dedicated lesson page.
+
+Example:
+
+WATER
+
+Small label:
+
+EVERYDAY SIGN
+
+Description:
+
+Learn the ISL sign commonly used for water.
+
+Main content should have two columns.
+
+Left
+
+Large demonstration area.
+
+This can initially use an image/video placeholder.
+
+Right
+
+Information card:
+
+What you'll learn
+
+• How to perform the sign
+• Correct hand positioning
+• Practice using your webcam
+
+Then:
+
+Practice Now →
+
+Also include:
+
+← Back to Learn
+
+The page should be extremely simple for beginners.
+
+15. PRACTICE PAGE
+
+This is one of the most important screens.
+
+Design it very carefully.
+
+Top:
+
+← Back to lesson
+
+WATER
+Practice the sign
+
+Main layout:
+
+LEFT
+
+Demonstration card.
+
+Show:
+
+How to sign WATER
+
+Large demonstration image/video placeholder.
+
+RIGHT
+
+Large webcam card.
+
+┌─────────────────────────────┐
+│                             │
+│                             │
+│          WEBCAM             │
+│                             │
+│                             │
+└─────────────────────────────┘
+
+Below it:
+
+Detecting your gesture...
+
+Show a subtle animated scanning/detection indicator.
+
+Button:
+
+Try Again
+
+The webcam area must be large enough to actually use comfortably.
+
+16. COMPUTER VISION FEEDBACK
+
+When the CV system detects a gesture, show a very clear result.
+
+Correct
+
+Use:
+
+✓
+
+Correct!
+
+92% confidence
+
+Supporting message:
+
+Great job! Your gesture matches WATER.
+
+Button:
+
+Continue →
+
+Use a soft green/sage visual treatment.
+
+Incorrect
+
+Use:
+
+↻
+
+Try Again
+
+61% confidence
+
+Supporting message:
+
+Almost there. Adjust your hand position and try again.
+
+Button:
+
+Try Again
+
+Use a soft peach/pink treatment.
+
+Do NOT make incorrect answers feel like failures.
+
+The tone should always be encouraging.
+
+17. COMPUTER VISION STATUS
+
+While detecting, show:
+
+● Detecting your hand...
+
+Hand detected
+Analyzing gesture...
+
+Potential states:
+
+Camera permission
+
+Allow camera access to start practising.
+
+No hand detected
+
+We can't see your hand yet. Try moving into the camera frame.
+
+Hand detected
+
+Hand detected — analyzing...
+
+Prediction
+
+Water — 92%
+
+These states should be visually clear.
+
+18. PROGRESS PAGE
+
+Create a dedicated Progress page.
+
+Heading:
+
+Your learning journey
+
+Subheading:
+
+Every practice session brings you one step closer.
+
+Top statistics:
+
+Signs Completed
+3 / 5
+
+Average Accuracy
+92%
+
+Total XP
+120
+
+Practice Sessions
+18
+
+Then:
+
+Overall Progress
+
+Large progress bar:
+
+3 / 5 Signs Completed
+
+████████░░
+
+Then:
+
+Sign Progress
+
+List the five signs.
+
+Example:
+
+✓ Hello             95%
+✓ Thank You         91%
+✓ Water             92%
+○ Help              Not started
+○ Please            Not started
+
+Use cards and progress bars.
+
+19. GAMIFICATION
+
+Keep gamification MINIMAL.
+
+Do not build leaderboards.
+
+Do not add unnecessary complex reward systems.
+
+Only include:
+
+XP
+
+Correct practice:
+
++10 XP
+
+Badges
+
+Use:
+
+🌱 First Sign
+
+⭐ 5 Signs Learned
+
+🔥 Practice Streak
+
+Show badges visually but keep them secondary to actual learning.
+
+20. PROGRESS / MOTIVATION SECTION
+
+Add a friendly motivational section similar to the storytelling sections in the reference design.
+
+Example:
+
+Small practice. Real progress.
+
+Supporting text:
+
+You don't need to learn everything at once. Start with one sign, practise it, and build from there.
+
+CTA:
+
+Continue Learning
+
+Include a friendly illustration of a student practising sign language.
+
+21. ABOUT / HOW TECHNOLOGY WORKS
+
+Since this is an educational computer-vision project, add a simple section explaining how practice recognition works.
+
+Do NOT make this too technical for normal users.
+
+Heading:
+
+How SignLearn understands your gesture
+
+Visual flow:
+
+Your Webcam
+     ↓
+Hand Detection
+     ↓
+21 Hand Landmarks
+     ↓
+Gesture Recognition
+     ↓
+Instant Feedback
+
+Use illustrations/icons for each stage.
+
+A small "For curious learners" expandable section can explain:
+
+MediaPipe Hands detects 21 hand landmarks, which are converted into numerical features and passed to a machine-learning classifier.
+
+This section should make the project feel technically credible without overwhelming normal users.
+
+22. FOOTER
+
+Create a clean footer.
+
+Include:
+
+SignLearn
+
+Learn. Sign. Connect.
+
+Links:
+
+Learn
+How It Works
+Progress
+About
+
+Small text:
+
+Computer Vision-Based Indian Sign Language Learning Platform
+
+Do not add unnecessary footer sections.
+
+23. RESPONSIVE DESIGN
+
+The website MUST be fully responsive.
+
+Desktop:
+
+Spacious layout
+Two-column hero
+Large illustrations
+Large cards
+
+Tablet:
+
+Adapt columns
+Maintain readability
+
+Mobile:
+
+Stack sections vertically
+Hamburger navigation
+Large touch-friendly buttons
+Webcam should remain usable
+Cards should become single-column
+No horizontal scrolling
+24. UI COMPONENT SYSTEM
+
+Create reusable components.
+
+Examples:
+
+Navbar
+Button
+SignCard
+ProgressCard
+StatCard
+LessonCard
+DemoCard
+WebcamBox
+FeedbackCard
+BadgeCard
+ProgressBar
+SectionHeading
+Footer
+
+Maintain consistent:
+
+Border radius
+Typography
+Shadows
+Spacing
+Button styles
+Icon styles
+
+Use a consistent design system rather than styling every page independently.
+
+25. ANIMATIONS
+
+Use subtle animations only.
+
+Examples:
+
+Button hover
+Card hover
+Progress bar animation
+Page transitions
+Webcam detection pulse
+Success feedback animation
+Badge reveal
+
+Do NOT use excessive animations.
+
+The site should feel polished, not distracting.
+
+26. ACCESSIBILITY
+
+Because this is an ISL learning platform, accessibility is important.
+
+Implement:
+
+High text readability
+Proper contrast
+Large clickable buttons
+Keyboard-friendly navigation
+Descriptive labels
+Accessible form inputs
+Clear error messages
+Avoid relying only on color to communicate status
+Icons + text for success/error states
+27. TECHNICAL ARCHITECTURE
+
+The UI should be prepared for this architecture:
+
+                 ┌──────────────┐
+                 │    React     │
+                 │   Frontend   │
+                 └──────┬───────┘
+                        │
+              ┌─────────┴─────────┐
+              ↓                   ↓
+       Node / Express         Python API
+              │                   │
+              ↓                   ↓
+           MongoDB          MediaPipe + ML
+              │                   │
+              └─────────┬─────────┘
+                        ↓
+                 Practice Result
+                        ↓
+                    Progress
+
+Frontend:
+
+React
+
+Backend:
+
+Node.js + Express
+
+Database:
+
+MongoDB + Mongoose
+
+Authentication:
+
+JWT
+
+Computer Vision:
+
+Python + OpenCV + MediaPipe
+
+Machine Learning:
+
+Scikit-learn
+
+Model:
+
+Random Forest or SVM
+
+Model persistence:
+
+Joblib
+
+CV service:
+
+Python FastAPI
+
+28. API STRUCTURE
+
+Prepare the frontend service layer for these APIs:
+
+POST   /api/auth/register
+POST   /api/auth/login
+
+GET    /api/signs
+GET    /api/signs/:id
+
+POST   /api/practice/result
+GET    /api/progress
+
+For computer vision:
+
+React
+ ↓
+Python/FastAPI
+ ↓
+MediaPipe
+ ↓
+ML Model
+ ↓
+Prediction + Confidence
+ ↓
+React
+
+Do not hardcode the architecture in a way that makes later backend integration difficult.
+
+Use a clean API service layer.
+
+29. DATA MODELS
+
+The frontend should be compatible with these models.
+
+User
+_id
+name
+email
+password
+Sign
+_id
+name
+description
+demonstrationUrl
+PracticeResult
+_id
+userId
+signId
+accuracy
+isCorrect
+createdAt
+30. INITIAL DUMMY DATA
+
+Until the backend is connected, use realistic dummy data.
+
+Signs:
+
+Hello
+Thank You
+Water
+Help
+Please
+
+Example progress:
+
+Hello       Completed    95%
+Thank You   Completed    91%
+Water       Completed    92%
+Help        Not Started
+Please      Not Started
+
+XP:
+
+120 XP
+
+Practice sessions:
+
+18
+
+Current streak:
+
+3 days
+
+Make the application functional with dummy data first so that all UI states can be demonstrated.
+
+31. IMPORTANT MVP BOUNDARY
+
+Do NOT expand the project beyond this scope.
+
+MUST HAVE
+
+✓ Login/Register
+✓ 5 ISL signs
+✓ Demonstration
+✓ Webcam
+✓ Hand detection
+✓ Gesture recognition
+✓ Correct/Incorrect feedback
+✓ Accuracy score
+✓ Progress tracking
+✓ XP
+✓ Basic badges
+
+DO NOT BUILD
+
+✗ Full ISL translation
+✗ Sentence recognition
+✗ Voice translation
+✗ Real-time conversation translation
+✗ Complex deep-learning architecture
+✗ Teacher dashboard
+✗ Leaderboards
+✗ 100+ signs
+✗ Social networking
+✗ Chat system
+✗ Unnecessary admin panels
+
+The goal is:
+
+A small but complete working product.
+
+32. IMPORTANT UX PRINCIPLE
+
+The application should never make the user wonder:
+
+"What am I supposed to do now?"
+
+Every page should have one obvious primary action.
+
+Examples:
+
+Landing page:
+
+Start Learning
+
+Dashboard:
+
+Choose a Sign
+
+Lesson:
+
+Practice Now
+
+Practice:
+
+Show Your Sign
+
+Correct:
+
+Continue
+
+Progress:
+
+Continue Learning
+
+Use visual hierarchy to guide the user naturally through the product.
+
+33. DESIGN QUALITY BAR
+
+The final result should look like a polished modern EdTech startup website.
+
+Think:
+
+modern educational product + friendly illustration + accessibility + computer vision
+
+NOT:
+
+college CRUD project + generic dashboard + excessive tables
+
+Use the attached reference specifically for:
+
+Layout inspiration
+Whitespace
+Section composition
+Illustration placement
+Typography hierarchy
+Card design
+Visual rhythm
+CTA placement
+Overall premium EdTech feel
+
+But create a completely original SignLearn identity around Indian Sign Language.
+
+34. FINAL USER EXPERIENCE
+
+When a new user opens the website, the experience should be:
+
+OPEN WEBSITE
+      ↓
+Understand what SignLearn does
+      ↓
+See "Start Learning"
+      ↓
+Create account / Login
+      ↓
+See 5 signs
+      ↓
+Choose a sign
+      ↓
+Learn the gesture
+      ↓
+Watch demonstration
+      ↓
+Practice using webcam
+      ↓
+Computer vision detects hand
+      ↓
+Gesture predicted
+      ↓
+Confidence displayed
+      ↓
+Correct / Try Again
+      ↓
+Score saved
+      ↓
+XP increases
+      ↓
+Progress updates
+      ↓
+User continues learning
+
+The product should communicate this journey visually without requiring instructions.
+
+35. MOST IMPORTANT INSTRUCTION
+
+Do not remove, simplify, or omit any of the functional requirements mentioned above.
+
+The visual design can be elegant and minimal, but the functionality described in this prompt must remain represented in the UI.
+
+Build the application as a complete MVP-ready product interface, with all pages, navigation, states, components, dummy data, responsive layouts, and integration-ready API structure.
+
+Start by creating the landing page, navigation system, authentication screens, dashboard, lesson page, practice page, and progress page, then ensure they all feel like one unified product.
+
+Prioritize clarity, usability, visual hierarchy, and a professional polished appearance.
