@@ -1,0 +1,870 @@
+I want you to improve and complete the existing SignLearn project.
+
+IMPORTANT:
+Do NOT rebuild the project from scratch.
+Do NOT remove existing functionality that is already working.
+Do NOT simplify the requirements.
+First inspect the current codebase and compare the existing implementation against the complete requirements below. Then improve the existing application.
+
+The current application has some missing features, and the UI currently feels too empty and unfinished. I want it to feel like a complete, polished, professional EdTech product.
+
+==================================================
+1. MAIN PROBLEM TO FIX
+==================================================
+
+The current UI has too much empty/unused space and does not yet feel like a complete real-world product.
+
+Some features from the original requirements are also missing.
+
+Your job is to:
+
+1. Identify missing screens/features.
+2. Implement the missing features.
+3. Improve the visual hierarchy.
+4. Make the pages feel richer without making them cluttered.
+5. Add appropriate real-world Indian imagery/illustrations.
+6. Make the entire website fully responsive.
+7. Maintain the existing SignLearn branding and functionality.
+8. Keep the application beginner-friendly and easy to understand.
+
+Do NOT fill empty space with random decorative elements.
+
+Every section should have a purpose.
+
+==================================================
+2. ORIGINAL PRODUCT
+==================================================
+
+The application is:
+
+SIGNLEARN
+
+Tagline:
+
+"Learn. Sign. Connect."
+
+It is a Computer Vision-Based Indian Sign Language Learning Platform.
+
+The MVP teaches these 5 ISL signs:
+
+- Hello
+- Thank You
+- Water
+- Help
+- Please
+
+The core journey is:
+
+Register/Login
+→ Dashboard
+→ Select Sign
+→ Learn Sign
+→ Watch Demonstration
+→ Practice
+→ Webcam
+→ Hand Detection
+→ Gesture Recognition
+→ Correct / Try Again
+→ Accuracy
+→ XP
+→ Progress
+
+The UI must make this journey obvious.
+
+==================================================
+3. UI DESIGN DIRECTION
+==================================================
+
+Use the previously provided reference design as visual inspiration.
+
+The desired visual style is:
+
+- Modern EdTech
+- Friendly
+- Warm
+- Professional
+- Clean
+- Human
+- Educational
+- Visually rich
+- Spacious but NOT empty
+
+Use strong visual hierarchy.
+
+The website should feel closer to a professionally designed educational startup/product than a basic college project.
+
+Do not make it look like a generic admin dashboard.
+
+==================================================
+4. FIX THE EMPTY UI
+==================================================
+
+The current pages feel too empty.
+
+Improve this by introducing meaningful content sections such as:
+
+LANDING PAGE:
+
+- Hero section
+- Real-world/Indian learner visual
+- Product explanation
+- How it works
+- 5-sign preview
+- Computer vision explanation
+- Benefits
+- Learning journey
+- Progress/motivation section
+- CTA
+- Footer
+
+DASHBOARD:
+
+- Welcome section
+- Current learning progress
+- Continue learning card
+- 5 sign cards
+- XP
+- Streak
+- Accuracy
+- Recent practice
+- Badges
+- Recommended next sign
+
+LESSON PAGE:
+
+- Demonstration area
+- Sign explanation
+- Step-by-step learning guidance
+- Common mistake/help section
+- Practice CTA
+- Related signs
+
+PRACTICE PAGE:
+
+- Large webcam area
+- Demonstration panel
+- Detection status
+- Confidence score
+- Feedback state
+- Instructions
+- Practice tips
+- Try Again
+- Continue
+
+PROGRESS PAGE:
+
+- Overall progress
+- Sign completion
+- Accuracy
+- XP
+- Practice sessions
+- Streak
+- Badges
+- Recent activity
+- Learning encouragement
+
+Do not simply make cards larger to fill space.
+
+Use meaningful information and visual storytelling.
+
+==================================================
+5. REAL-WORLD INDIAN IMAGES
+==================================================
+
+I want the website to feel human and relatable.
+
+Where appropriate, use REALISTIC images of Indian people rather than relying only on generic illustrations.
+
+For example:
+
+- Indian student learning
+- Indian student practising hand signs
+- Indian young woman demonstrating a sign
+- Indian young man learning
+- Indian classroom/learning environment
+- Indian person using a laptop/webcam
+
+IMPORTANT REPRESENTATION REQUIREMENT:
+
+Do NOT represent every Indian person with the same skin tone.
+
+India has diverse skin tones and appearances.
+
+Use natural, realistic diversity in the imagery.
+
+Include a variety of:
+
+- Light brown
+- Medium brown
+- Deep brown
+- Different Indian facial features
+- Different hairstyles
+- Different genders
+
+But do this naturally.
+
+Do NOT make skin tone the focus of the design.
+
+Avoid stereotypes.
+
+The people should look like realistic Indian users of an educational product.
+
+==================================================
+6. IMAGE USAGE
+==================================================
+
+Use images only where they improve the product.
+
+Good locations:
+
+Hero section
+How-it-works section
+Learning section
+Practice guidance
+Progress/motivation section
+About section
+
+For the sign-learning cards, prioritize actual sign demonstrations over decorative stock photography.
+
+If using external image URLs, make sure the images are reliable and actually load.
+
+Prefer appropriate royalty-safe/free image sources where possible.
+
+Do not use random unrelated stock images.
+
+Do not use images that make the website look like a generic corporate template.
+
+==================================================
+7. LANDING PAGE IMPROVEMENT
+==================================================
+
+Make the landing page feel complete.
+
+Hero:
+
+Eyebrow:
+
+"INDIAN SIGN LANGUAGE LEARNING"
+
+Heading:
+
+"Learn Indian Sign Language, one sign at a time."
+
+Supporting text:
+
+"Learn everyday ISL signs through simple visual lessons and practise them using your webcam with instant feedback."
+
+Buttons:
+
+START LEARNING
+HOW IT WORKS
+
+Add a realistic Indian learner/young adult visual near the hero.
+
+Use a soft peach/pink visual background shape behind the person.
+
+Below the hero add a clear product explanation.
+
+==================================================
+8. FIVE SIGNS SECTION
+==================================================
+
+Create a visually strong section:
+
+"Five signs to get you started"
+
+Cards:
+
+HELLO
+THANK YOU
+WATER
+HELP
+PLEASE
+
+Each card should have:
+
+- Sign image/demo
+- Sign name
+- Short explanation
+- Difficulty/status
+- Learn button
+
+Do not leave large blank areas inside these cards.
+
+==================================================
+9. HOW IT WORKS
+==================================================
+
+Create a visual 4-step process:
+
+01 — LEARN
+Understand the sign.
+
+02 — WATCH
+See how the gesture is performed.
+
+03 — PRACTICE
+Use your webcam.
+
+04 — IMPROVE
+Receive instant feedback.
+
+Make this section visually interesting using icons, illustrations, and/or appropriate photography.
+
+==================================================
+10. COMPUTER VISION SECTION
+==================================================
+
+Add a section explaining the technology in simple language.
+
+Heading:
+
+"How SignLearn understands your gesture"
+
+Visual flow:
+
+Webcam
+↓
+Hand Detection
+↓
+21 Hand Landmarks
+↓
+Gesture Recognition
+↓
+Instant Feedback
+
+Explain:
+
+MediaPipe detects 21 points on the hand.
+
+These landmarks are converted into numerical features.
+
+The machine-learning model predicts the performed sign.
+
+Do not make this section overly technical.
+
+It should still be understandable to a normal user.
+
+==================================================
+11. DASHBOARD
+==================================================
+
+The dashboard must NOT look empty.
+
+At the top:
+
+"Welcome back, [Name]!"
+
+"Ready to learn another sign?"
+
+Add:
+
+Progress:
+
+3 / 5 Signs Completed
+
+Average Accuracy:
+
+92%
+
+XP:
+
+120 XP
+
+Streak:
+
+3 days
+
+Then add a prominent:
+
+"Continue Learning"
+
+card showing the next recommended sign.
+
+Example:
+
+WATER
+
+"Continue practising this sign"
+
+[Continue Practice]
+
+Then show all 5 signs.
+
+Each card should clearly show:
+
+- Completed
+- In Progress
+- Not Started
+
+with appropriate visual states.
+
+Also include:
+
+Recent Practice
+
+Badges
+
+Practice Streak
+
+==================================================
+12. LESSON PAGE
+==================================================
+
+The lesson page should not just contain a title and a button.
+
+Include:
+
+- Sign name
+- Demonstration
+- Description
+- Meaning
+- How to perform
+- Important hand-position guidance
+- Common mistakes
+- Practice button
+
+Example:
+
+WATER
+
+"Learn the ISL sign for water."
+
+HOW TO PERFORM:
+
+1. Position your hand correctly.
+2. Follow the demonstrated movement.
+3. Keep your hand inside the camera frame when practising.
+
+Then:
+
+[PRACTICE NOW]
+
+==================================================
+13. PRACTICE PAGE
+==================================================
+
+This is a major feature.
+
+Make the practice screen visually strong.
+
+Desktop:
+
+LEFT:
+Demonstration
+
+RIGHT:
+Large webcam
+
+Below/around webcam:
+
+"Detecting your gesture..."
+
+Show detection status.
+
+Possible states:
+
+Camera permission:
+
+"Allow camera access to start practising."
+
+No hand:
+
+"We can't see your hand yet. Move your hand into the camera frame."
+
+Detecting:
+
+"Hand detected — analysing..."
+
+Correct:
+
+✓ CORRECT!
+
+92% confidence
+
+"Great job! Your gesture matches WATER."
+
+[Continue]
+
+Incorrect:
+
+↻ TRY AGAIN
+
+61% confidence
+
+"Almost there. Adjust your hand position and try again."
+
+[Try Again]
+
+The feedback must be visually obvious.
+
+==================================================
+14. PROGRESS PAGE
+==================================================
+
+Create a polished progress dashboard.
+
+Top statistics:
+
+Signs Completed
+3 / 5
+
+Average Accuracy
+92%
+
+Total XP
+120
+
+Practice Sessions
+18
+
+Current Streak
+3 days
+
+Then:
+
+OVERALL PROGRESS
+
+3 / 5 Signs Completed
+
+Progress bar
+
+Then:
+
+SIGN PROGRESS
+
+Hello — 95%
+Thank You — 91%
+Water — 92%
+Help — Not Started
+Please — Not Started
+
+Then:
+
+BADGES
+
+🌱 First Sign
+⭐ 5 Signs Learned
+🔥 Practice Streak
+
+Then:
+
+RECENT ACTIVITY
+
+Show realistic activity entries.
+
+==================================================
+15. GAMIFICATION
+==================================================
+
+Keep it minimal.
+
+Only use:
+
+XP
+Progress
+Badges
+Streak
+
+Correct practice:
+
++10 XP
+
+Do NOT add:
+
+- Leaderboards
+- Complicated rewards
+- Coins
+- Excessive gamification
+- Social ranking
+
+==================================================
+16. COLORS
+==================================================
+
+Do NOT use blue as the primary UI color.
+
+Use:
+
+Background:
+#FFF9F2
+
+Soft Pink:
+#F6B6C8
+
+Peach:
+#F7C59F
+
+Warm Yellow:
+#F4D77D
+
+Sage Green:
+#B8C9A8
+
+Dark Brown:
+#3D332D
+
+White:
+#FFFFFF
+
+Use these consistently.
+
+The interface should feel warm and welcoming.
+
+==================================================
+17. RESPONSIVE DESIGN — VERY IMPORTANT
+==================================================
+
+The website MUST be fully responsive.
+
+Do not consider the desktop version complete until mobile and tablet layouts are also properly handled.
+
+Test/consider at least:
+
+- 1440px desktop
+- 1280px desktop
+- 1024px tablet/small laptop
+- 768px tablet
+- 480px mobile
+- 390px mobile
+- 375px mobile
+
+Desktop:
+
+- Multi-column layouts
+- Large hero
+- Spacious cards
+- Large webcam
+
+Tablet:
+
+- Adapt columns
+- Reduce spacing
+- Maintain hierarchy
+
+Mobile:
+
+- Single-column layout
+- Hamburger menu
+- Touch-friendly buttons
+- No horizontal scrolling
+- No text overflow
+- No cards going outside viewport
+- Images scale correctly
+- Proper padding
+- Webcam remains usable
+- Navigation remains accessible
+- Tables/statistics should become mobile-friendly cards where necessary
+
+IMPORTANT:
+
+Do not simply shrink the desktop UI.
+
+Actually redesign layouts for mobile where required.
+
+==================================================
+18. NAVIGATION
+==================================================
+
+Desktop navigation:
+
+SignLearn
+
+Learn
+How It Works
+Progress
+About
+
+Log In
+Start Learning
+
+Mobile:
+
+Use a hamburger menu.
+
+Make sure all navigation links remain accessible.
+
+The navigation should not overlap content.
+
+==================================================
+19. ACCESSIBILITY
+==================================================
+
+Because this is an ISL learning platform, accessibility is important.
+
+Implement:
+
+- Readable text
+- Good contrast
+- Keyboard navigation
+- Accessible buttons
+- Clear labels
+- Form validation
+- Alt text for images
+- Do not rely only on color to communicate states
+- Use icons + text
+- Clear error messages
+- Large touch targets
+
+==================================================
+20. TECHNICAL ARCHITECTURE
+==================================================
+
+Do not break the existing architecture.
+
+The intended architecture is:
+
+React frontend
+
+Node.js + Express backend
+
+MongoDB + Mongoose
+
+JWT authentication
+
+Python FastAPI CV service
+
+OpenCV
+
+MediaPipe Hands
+
+Scikit-learn
+
+Random Forest / SVM
+
+Joblib
+
+Architecture:
+
+React
+↓
+Node / Express
+↓
+MongoDB
+
+React
+↓
+Python / FastAPI
+↓
+MediaPipe + ML model
+
+Practice result
+↓
+Progress
+
+==================================================
+21. API COMPATIBILITY
+==================================================
+
+Keep the UI/API layer prepared for:
+
+POST /api/auth/register
+
+POST /api/auth/login
+
+GET /api/signs
+
+GET /api/signs/:id
+
+POST /api/practice/result
+
+GET /api/progress
+
+Do not hardcode the application so that future backend integration becomes difficult.
+
+Keep API calls organized in a service layer.
+
+==================================================
+22. DO NOT REMOVE EXISTING WORK
+==================================================
+
+Before making changes:
+
+1. Inspect the existing project.
+2. Identify what is already implemented.
+3. Keep working functionality.
+4. Improve existing components instead of unnecessarily replacing them.
+5. Add missing functionality.
+6. Fix UI inconsistencies.
+7. Fix responsive problems.
+
+Do NOT:
+
+- Delete existing working pages
+- Remove authentication
+- Remove existing API integrations
+- Remove existing computer-vision integration
+- Replace the entire application unnecessarily
+- Change the project into a completely different design
+
+==================================================
+23. FINAL QUALITY CHECK
+==================================================
+
+Before considering the task complete, verify:
+
+[ ] Landing page feels complete
+[ ] UI no longer feels empty
+[ ] Realistic Indian imagery is used appropriately
+[ ] Indian representation has natural skin-tone diversity
+[ ] Five signs are visible
+[ ] Dashboard is complete
+[ ] Lesson page is complete
+[ ] Practice page is complete
+[ ] Webcam area is clearly visible
+[ ] Detection states exist
+[ ] Correct state exists
+[ ] Try Again state exists
+[ ] Accuracy is displayed
+[ ] Progress page exists
+[ ] XP exists
+[ ] Badges exist
+[ ] Streak exists
+[ ] Navigation works
+[ ] Authentication screens work
+[ ] Mobile layout works
+[ ] Tablet layout works
+[ ] Desktop layout works
+[ ] No horizontal scrolling
+[ ] No overlapping elements
+[ ] Images do not break layouts
+[ ] Buttons are readable and accessible
+[ ] Existing functionality is preserved
+[ ] UI feels like one consistent product
+
+==================================================
+24. FINAL DESIGN GOAL
+==================================================
+
+The final application should communicate this immediately:
+
+"THIS IS A REAL, FRIENDLY, MODERN PLATFORM FOR LEARNING INDIAN SIGN LANGUAGE."
+
+The user should understand the product within a few seconds of opening it.
+
+The design should feel:
+
+Warm
+Human
+Educational
+Modern
+Accessible
+Professional
+Visually rich
+
+but NOT:
+
+Empty
+Corporate
+Generic
+Overly technical
+Overly colorful
+Cluttered
+
+Use the reference design as inspiration for visual quality and composition, but create an original SignLearn interface.
+
+Most importantly:
+
+DO NOT reduce the existing features or requirements.
+
+Complete the missing features and improve the UI while preserving the project's existing functionality and architecture.
